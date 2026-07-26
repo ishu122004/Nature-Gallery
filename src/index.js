@@ -1,4 +1,4 @@
-import ReactDom, { createRoot } from "react-dom/client";
+import ReactDom from "react-dom/client";
 import image1 from "./assets/images/sunset.jpg";
 import image2 from "./assets/images/mountain.jpg";
 import image3 from "./assets/images/waterfall.jpg";
