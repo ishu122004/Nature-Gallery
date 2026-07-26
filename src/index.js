@@ -14,7 +14,7 @@ import image12 from "./assets/images/island.jpg"
 import "./input.css";
 const root=ReactDom.createRoot(document.getElementById("root"))
 
-function Phonecard(props){
+function Gallerycard(props){
   return(
     <div className="bg-white rounded-xl shadow-md grid  hover:shadow-2xl hover:translate-y-1 transition duration-700 ease-in-out overflow-hidden">
       
@@ -34,7 +34,7 @@ function Phonecard(props){
         
     </div>
   )}
-const phone=[
+const gallery=[
   {
     img:image1,
     brand:"Sunset",
@@ -126,8 +126,8 @@ root.render(
   <div className="max-w-6xl mx-auto px-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
   
   {
-  phone.map(function(item,index){
-    return <Phonecard key={index} img={item.img} brand={item.brand} about={item.about} price={item.price} ratings={item.ratings}></Phonecard>
+  gallery.map(function(item,index){
+    return <Gallerycard key={index} img={item.img} brand={item.brand} about={item.about} price={item.price} ratings={item.ratings}></Gallerycard>
   })
   }
   </div> 
