@@ -122,7 +122,7 @@ root.render(
   <div className="min-h-screen bg-orange-100">
      <h1 className="text-4xl font-bold text-center text-orange-950 pt-4 hover:text-black">Nature Gallery</h1>
 
-     <p className="text-md text-center text-orange-900 py-4">Explore the beauty of narure through breathtaking landscapes,vibrant forests,majestic mountains,peaceful lakes, and colourful sunsets.Every image captures the wonder and serenity of the natural world</p>
+     <p className="text-md text-center text-orange-900 py-4 px-4">Explore the beauty of narure through breathtaking landscapes,vibrant forests,majestic mountains,peaceful lakes, and colourful sunsets.Every image captures the wonder and serenity of the natural world</p>
   <div className="max-w-6xl mx-auto px-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
   
   {
