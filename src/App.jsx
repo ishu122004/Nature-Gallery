@@ -3,7 +3,7 @@ import gallery from "./data/galleryData";
 
 function App() {
   return (
-    <div className="min-h-screen bg-orange-100">
+    <div className="min-h-screen bg-orange-100 pb-10">
       <h1 className="text-4xl font-bold text-center text-orange-950 pt-4">
         Nature Gallery
       </h1>
